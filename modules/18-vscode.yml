@@ -4,3 +4,4 @@ commands:
   - curl -L -o /tmp/code.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
   - apt-get update
   - apt-get install -y /tmp/code.deb
+  - apt-get install -y gnome-keyring
