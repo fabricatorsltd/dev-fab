@@ -1,11 +1,11 @@
-name: node
-type: apt
-source:
-  packages:
-  - nodejs
-  - npm
+- name: node
+  type: apt
+  source:
+    packages:
+    - nodejs
+    - npm
 
-name: pnpm
-type: shell
-commands:
-  - npm install -g pnpm
+- name: pnpm
+  type: shell
+  commands:
+    - npm install -g pnpm
