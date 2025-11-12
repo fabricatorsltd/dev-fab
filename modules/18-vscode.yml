@@ -1,7 +1,6 @@
 name: vscode
 type: shell
 commands:
-  - wget -O code.deb https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
-  - dpkg -i code.deb
-  - apt update
-
+  - curl -L -o /tmp/code.deb 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
+  - apt-get update
+  - apt-get install -y /tmp/code.deb
