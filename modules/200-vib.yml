@@ -3,7 +3,7 @@ type: shell
 source:
   type: file
   url: https://github.com/Vanilla-OS/Vib/releases/download/v1.0.6/vib-amd64
-  checksum: 03ea3994b942f40c4b0700b4e46a3436a60ff3764fade97a41c9239a89ed57f2
+  checksum: e451ec5dd31311be2bb110bd9d55a3537b4945576db36e3fc1ac1bb720b065e7
 commands:
   - mkdir -p /usr/bin
   - cp /sources/vib/vib /usr/bin/vib
