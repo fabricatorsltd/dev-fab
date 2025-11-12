@@ -22,7 +22,8 @@ stages:
       - modules/10-python.yml
       - modules/12-dotnet.yml
       - modules/14-node.yml
-      - modules/16-ide.yml
+      - modules/16-zed.yml
+      - modules/18-vscode.yml
       - modules/20-build-tools.yml
       - modules/30-gtk.yml
       - modules/40-rust.yml

@@ -1,0 +1,7 @@
+name: vscode
+type: shell
+commands:
+  - wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+  - dpkg -i code_*.deb
+  - apt update
+
