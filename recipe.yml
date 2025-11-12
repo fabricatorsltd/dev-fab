@@ -1,5 +1,5 @@
-name: Vanilla Dev
-id: dev
+name: fabricators Dev Kit
+id: devkit
 stages:
 - id: build
   base: ghcr.io/vanilla-os/pico:main
@@ -20,10 +20,12 @@ stages:
       - modules/01-vanilla-base-files.yml
       - modules/05-go.yml
       - modules/10-python.yml
+      - modules/12-dotnet.yml
+      - modules/14-node.yml
+      - modules/16-ide.yml
       - modules/20-build-tools.yml
       - modules/30-gtk.yml
       - modules/40-rust.yml
-      - modules/100-apx-gui-deps.yml
       - modules/101-abroot-deps.yml
       - modules/200-vib.yml
 

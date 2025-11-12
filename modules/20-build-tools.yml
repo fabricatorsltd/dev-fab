@@ -9,3 +9,6 @@ source:
   - clang-format
   - devscripts
   - debhelper
+  - appstream-util
+  - desktop-file-utils
+  - itstool

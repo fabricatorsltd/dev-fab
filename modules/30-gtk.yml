@@ -12,3 +12,5 @@ source:
   - libnma-dev
   - libnma-gtk4-dev
   - gobject-introspection
+  - libgtk-4-bin
+  - libvte-2.91-gtk4-dev
